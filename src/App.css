@@ -10,11 +10,13 @@
 
 /* Card */
 .card {
-  /* width: 100; */
+  width: 100%;
 }
 
 .card #title {
   color: white;
-  text-align: center;
   height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
