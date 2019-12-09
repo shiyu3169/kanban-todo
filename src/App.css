@@ -1,7 +1,14 @@
+/* General */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: transparent;
+  padding: 1rem 1rem;
 }
 
 #board {
@@ -32,4 +39,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* AddCard */
+#addCard {
+  color: grey;
 }

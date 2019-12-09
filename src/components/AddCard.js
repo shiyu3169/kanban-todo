@@ -6,7 +6,11 @@ function AddCard({ addNewCard, columnId }) {
     const newCard = { id: uuid.v4(), text: cardText };
     addNewCard(columnId, newCard);
   };
-  return <div onClick={onClick}>Add a card</div>;
+  return (
+    <button id="addCard" onClick={onClick}>
+      + Add a card
+    </button>
+  );
 }
 
 export default AddCard;
